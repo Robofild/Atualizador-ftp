@@ -1,0 +1,636 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Order Taker Atualização|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\visualBasic\packet prontos\Atualizador\atualizador2
+
+[Package|Order Taker Atualização|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Order Taker Atualização|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Order Taker Atualização|Files Found]
+
+[Package|Order Taker Atualização|Files Released]
+
+[Package|Order Taker Atualização|Missing Dependency Information]
+
+[Package|Order Taker Atualização|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|Order Taker Atualização|Files Added]
+c:\users\developers\desktop\geraspstorder.bat=
+
+[Package|Order Taker Atualização|Files Removed]
+c:\users\developers\desktop\geraspstorder.bat=
+
+[Package|Order Taker Atualização|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=No
+
+[Package|Order Taker Atualização|Configure Registry Files]
+Applicable=No
+
+[Package|Order Taker Atualização|Configure Remote Servers]
+Applicable=No
+
+[Package|Order Taker Atualização|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Developers\Desktop\GerasPstOrder.bat=$(AppPath)
+
+[Package|Order Taker Atualização|Configure Shared Files]
+Applicable=Yes
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=No
+
+[Package|Order Taker Atualização|Distribution]
+Type=single
+Size=
+Title=Atualização Order Taker2
+
+[Package|Order Taker Atualização|IconGroups]
+Group0=Atualização Order Taker
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Order Taker Atualização|Atualização Order Taker]
+Icon1=FTPInternetControl.exe
+Title1=Atualização Order Taker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Order Taker Atualização|Package]
+PackageFolder=G:\visualBasic\packet prontos\Atualizador\atualizador2
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=G:\visualBasic\packet prontos\Atualizador\atualizador2\setup.exe
+File2=G:\visualBasic\packet prontos\Atualizador\atualizador2\Setup.Lst
+File3=G:\visualBasic\packet prontos\Atualizador\atualizador2\FTPInternetControl.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=i:\novotempo
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(AppPath)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=teste
+
+[Package|Dep File 1|IconGroups]
+Group0=teste
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|teste]
+Icon1=FTPInternetControl.exe
+Title1=teste
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=FTPInternetControl.CAB
+DepCabRun=FTPInternetControl.INF
+DepCabURL=robofild.info
+
+[Package|Dep File 1|Package]
+PackageFolder=i:\novotempo
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=i:\novotempo\FTPInternetControl.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|next|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\novotempo\flader
+
+[Package|next|Configure DAO ISAMs]
+Applicable=No
+
+[Package|next|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|next|Files Found]
+
+[Package|next|Files Released]
+
+[Package|next|Missing Dependency Information]
+
+[Package|next|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|next|Files Added]
+
+[Package|next|Files Removed]
+
+[Package|next|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|next|Configure Registry Files]
+Applicable=No
+
+[Package|next|Configure Remote Servers]
+Applicable=No
+
+[Package|next|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(WinSysPath)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|next|Configure Shared Files]
+Applicable=No
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=No
+
+[Package|next|Distribution]
+Type=single
+Size=
+Title=new desteeeeeeeer
+
+[Package|next|DepFile]
+DepCabFile=FTPInternetControl.CAB
+DepCabRun=FTPInternetControl.INF
+DepCabURL=robofild.info
+
+[Package|next|IconGroups]
+Group0=teste
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|next|teste]
+Icon1=FTPInternetControl.exe
+Title1=teste
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|next|Package]
+PackageFolder=i:\novotempo\flader
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=i:\novotempo\flader\setup.exe
+File2=i:\novotempo\flader\Setup.Lst
+File3=i:\novotempo\flader\FTPInternetControl.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standardne|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\novotempo\folder
+
+[Package|Standardne|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardne|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardne|Files Found]
+
+[Package|Standardne|Files Released]
+
+[Package|Standardne|Missing Dependency Information]
+
+[Package|Standardne|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|Standardne|Files Added]
+
+[Package|Standardne|Files Removed]
+
+[Package|Standardne|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standardne|Configure Registry Files]
+Applicable=No
+
+[Package|Standardne|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardne|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(AppPath)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|Standardne|Configure Shared Files]
+Applicable=Yes
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+
+[Package|Standardne|Distribution]
+Type=single
+Size=
+Title=teste
+
+[Package|Standardne|IconGroups]
+Group0=teste
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standardne|teste]
+Icon1=FTPInternetControl.exe
+Title1=teste
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standardne|Package]
+PackageFolder=i:\novotempo\folder
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=i:\novotempo\folder\setup.exe
+File2=i:\novotempo\folder\Setup.Lst
+File3=i:\novotempo\folder\FTPInternetControl.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Order Taker Atualização 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=i:\atualizador2\ultmate
+
+[Package|Order Taker Atualização 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Order Taker Atualização 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Order Taker Atualização 3|Files Found]
+
+[Package|Order Taker Atualização 3|Files Released]
+
+[Package|Order Taker Atualização 3|Missing Dependency Information]
+
+[Package|Order Taker Atualização 3|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|Order Taker Atualização 3|Files Added]
+c:\users\developers\desktop\geraspstorder.bat=
+
+[Package|Order Taker Atualização 3|Files Removed]
+c:\users\developers\desktop\geraspstorder.bat=
+
+[Package|Order Taker Atualização 3|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=No
+
+[Package|Order Taker Atualização 3|Configure Registry Files]
+Applicable=No
+
+[Package|Order Taker Atualização 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Order Taker Atualização 3|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Developers\Desktop\GerasPstOrder.bat=$(AppPath)
+
+[Package|Order Taker Atualização 3|Configure Shared Files]
+Applicable=Yes
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=No
+
+[Package|Order Taker Atualização 3|Distribution]
+Type=single
+Size=
+Title=Atualização Order Taker3
+
+[Package|Order Taker Atualização 3|IconGroups]
+Group0=Atualização Order Taker
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Order Taker Atualização 3|Atualização Order Taker]
+Icon1=FTPInternetControl.exe
+Title1=Atualização Order Taker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Order Taker Atualização 3|Package]
+PackageFolder=i:\atualizador2\ultmate
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=i:\atualizador2\ultmate\setup.exe
+File2=i:\atualizador2\ultmate\Setup.Lst
+File3=i:\atualizador2\ultmate\FTPInternetControl.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|teste]
+Icon1=FTPInternetControl.exe
+Title1=teste
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\visualBasic\FtpAtualizacao\nova
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\users\developers\desktop\geraspstorder.bat=
+c:\users\developers\desktop\delmyordertaker.bat=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Windows\System32\msvbvm60.dll=No
+C:\Windows\System32\oleaut32.dll=No
+C:\Windows\System32\olepro32.dll=No
+C:\Windows\System32\asycfilt.dll=No
+C:\Windows\System32\stdole2.tlb=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=Yes
+C:\Users\Developers\Desktop\delMyOrderTaker.bat=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=$(AppPath)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\Developers\Desktop\GerasPstOrder.bat=$(AppPath)
+C:\Users\Developers\Desktop\delMyOrderTaker.bat=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+G:\visualBasic\FtpAtualizacao\FTPInternetControl.exe=Yes
+C:\Users\Developers\Desktop\GerasPstOrder.bat=Yes
+C:\Users\Developers\Desktop\delMyOrderTaker.bat=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Atualizador do sistema order taker 5.30
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Atualização
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Atualização]
+Icon1=FTPInternetControl.exe
+Title1=Atualizador
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=g:\visualBasic\FtpAtualizacao\nova
+ProjectFolder=G:\visualBasic\FtpAtualizacao
+ServerSideCab=
+File1=g:\visualBasic\FtpAtualizacao\nova\setup.exe
+File2=g:\visualBasic\FtpAtualizacao\nova\Setup.Lst
+File3=g:\visualBasic\FtpAtualizacao\nova\FTPInternetControl.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

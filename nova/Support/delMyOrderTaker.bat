@@ -1,0 +1,1 @@
+rd /s /q "C:\Program Files (x86)\order_taker"
